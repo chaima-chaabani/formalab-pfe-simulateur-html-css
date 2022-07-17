@@ -1,0 +1,70 @@
+/*
+selecteur(s)  {
+    attr1 : val1 ;
+    attr2 : val2 ;
+    .
+    .
+    .
+}
+*/
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.text-green {
+    color: green;
+}
+
+.w-adjust{
+    width: fit-content;
+}
+
+.border-red {
+    border: 1px solid red;
+}
+
+.btn-default {
+    border: none;
+    background: none;
+}
+
+.btn-green {
+    border: 1px solid green;
+    border-radius: 3px;
+    background-color: white;
+    color: green;
+}
+
+.btn-green:hover {
+    background-color: greenyellow;
+    cursor: pointer;
+}
+
+.padding-left-10 {
+    padding-left: 10px;
+}
+
+/* 4 sides */
+/* top right bottom left*/
+/* top-bottom right-left*/
+
+.marging-left-50 {
+    margin-left: 50px;
+}
+
+.menu li {
+    display: inline-block;
+    margin: 0px 20px;
+    cursor: pointer;
+}
+
+.menu li:hover {
+    /*
+    color-name
+    rgb(255,0,0) // 0-255
+    #ff0000
+    */
+    color: rgb(160, 147, 95);
+    border-bottom: 2px solid yellow;
+}
